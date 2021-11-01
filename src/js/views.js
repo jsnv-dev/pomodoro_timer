@@ -99,7 +99,7 @@ Pmdr.Views.CtrlView = Backbone.View.extend({
         this.pomodoroButton = new Pmdr.Views.StartButtonView({
             'model': this.model,
             'title': 'start',
-            'duration': 25 * 60,
+            'duration': 51 * 60,
             'type': 'pomodoro',
         });
 

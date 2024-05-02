@@ -113,7 +113,7 @@ Pmdr.Views.CtrlView = Backbone.View.extend({
         this.longBreakButton = new Pmdr.Views.StartButtonView({
             'model': this.model,
             'title': 'long break',
-            'duration': 15 * 60,
+            'duration': 10 * 60,
             'type': 'long-break',
         });
 
